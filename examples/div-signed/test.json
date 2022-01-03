@@ -1,0 +1,37 @@
+{
+  "preprocessor": "cs241.wordasm",
+  "runtime": "mips.twoints",
+  "tests": {
+    "even-steven": {
+      "input": [2, 42],
+      "expected": {
+        "3": 1
+      }
+    },
+    "odd-todd": {
+      "input": [2, 13],
+      "expected": {
+        "3": 0
+      }
+    },
+    "zero-demonimator-error": {
+      "input": [0, 0],
+      "expected": {
+        "3": 0
+      }
+    },
+    "zero-denominator-no-error": {
+      "input": [0, 0],
+      "expected": {
+        "3": 0
+      },
+      "error": true
+    },
+    "better-check-this-test": {
+      "input": [2, 3],
+      "expected": {
+        "3": 1
+      }
+    }
+  }
+}

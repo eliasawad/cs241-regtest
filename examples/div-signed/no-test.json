@@ -1,0 +1,5 @@
+{
+  "preprocessor": "cs241.wordasm",
+  "runtime": "mips.twoints",
+  "tests": {}
+}

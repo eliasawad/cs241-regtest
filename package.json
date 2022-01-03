@@ -1,0 +1,29 @@
+{
+  "name": "cs241-regtest",
+  "version": "1.0.0",
+  "description": "A utility to run register test suites on MIPS assembly code as used in CS 241 course at the University of Waterloo",
+  "main": "index.js",
+  "keywords": [
+    "waterloo",
+    "uwaterloo",
+    "test",
+    "cs241",
+    "sequential",
+    "mips",
+    "assembly"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "cs241-regtest": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "log-symbols": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/eliasawad/cs241-regtest/issues"
+  },
+  "repository": "github:eliasawad/cs241-regtest",
+  "files": []
+}
